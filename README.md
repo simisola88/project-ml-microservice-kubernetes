@@ -48,3 +48,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+#### Access your app
+
+* You can access the app using http://localhost:8080
