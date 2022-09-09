@@ -9,7 +9,7 @@ dockerpath=simsol88/mch-api
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-r=$(kubectl get pod ml-api 2> /dev/null;echo $?)
+r=$(kubectl get pod mch-api 2> /dev/null;echo $?)
 
 if [ "_$r" == "_1" ] ; then
     kubectl run mch-api \
