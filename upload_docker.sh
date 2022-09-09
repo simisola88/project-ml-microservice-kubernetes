@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=simisol88/mch-api
+dockerpath=simsol88/mch-api:1.0
 
 # Step 2:  
 # Authenticate & tag

@@ -5,7 +5,7 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=simsol88/mch-api
+dockerpath=simsol88/mch-api:1.0
 
 # Step 2
 # Run the Docker Hub container with kubernetes
